@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scale=no">
+    <title>Bio-Data</title>
+    <link rel="icon" href="2.jpeg">
+    <link rel="stylesheet" href="biodata.css">
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .biodatabox {
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        position: relative;
+        border: 3px solid blueviolet;
+        border-radius: 5px 5px 5px 5px;
+        margin-bottom: 20px;
+    }
+
+    .biodatabox::before {
+        width: 100%;
+        height: 100%;
+        margin: -50px;
+        position: absolute;
+        border-radius: 1px 90px 1px 1px;
+        content: "";
+        background: url(images/1.jpg);
+        background-size: 100% 100%;
+        opacity: .6;
+        z-index: -10;
+    }
+
+    .img {
+        position: absolute;
+        margin: 20px;
+        right: 0;
+    }
+
+    .img img {
+        backface-visibility: hidden;
+    }
+
+    table {
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .hed {
+        text-align: center;
+        font-size: 40px;
+        color: rgb(47, 18, 179);
+        font-weight: 600;
+    }
+
+    .heds {
+        padding-left: 10%;
+        font-size: 30px;
+        font-weight: 600;
+        font-style: times;
+        color: darkmagenta;
+        text-shadow: 15px 15px 40px white;
+    }
+
+    .hedsa {
+        font-size: 30px;
+        font-weight: 600;
+        font-style: times;
+        color: rgb(247, 58, 11);
+        text-align: center;
+    }
+
+    .field {
+        border: 3px solid rgb(55, 0, 255);
+        border-radius: 20px;
+    }
+
+    .name {
+        color: rgb(14, 209, 63);
+        font-weight: 550;
+    }
+
+    .ans {
+        font-size: 25px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="biodatabox">
+            <div class="img"></div>
+            <table cellspacing="20px">
+                <tr colspan="2">
+                    <td colspan="2" class="hed">Bio-Data<br>_____<br><br><br></td>
+
+                </tr>
+                <tr colspan="2">
+                    <td colspan="2" class="heds"> Personal Detail : ---<br><br></td>
+                </tr>
+
+                <tr>
+                    <td class="given"> Name </td>
+                    <td class="ans b"> :-&nbsp; <span class="name">Gowrish H M </span></td>
+                </tr>
+                <tr>
+                    <td class="given"> Qualification </td>
+                    <td class="ans"> :-&nbsp; SSLC :78%<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PUC
+                        :65%<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BE :8.33CGPA</td>
+                </tr>
+                <tr>
+                    <td class="given"> Date of Birth </td>
+                    <td class="ans"> :-&nbsp; 02/08/2004 </td>
+                </tr>
+                <tr>
+                    <td class="given"> Height </td>
+                    <td class="ans"> :-&nbsp; 5.9</td>
+                </tr>
+                <tr>
+                    <td class="given"> color </td>
+                    <td class="ans"> :-&nbsp; Fair </td>
+                </tr>
+                <tr>
+                    <td class="given"> Blood Group </td>
+                    <td class="ans"> :-&nbsp; B+ </td>
+                </tr>
+                <tr>
+                    <td class="given"> Hobbies </td>
+                    <td class="ans"> :-&nbsp; Cycling,Listen Music,Reserach,Sports </td>
+                </tr>
+            </table>
+            <fieldset class="field">
+                <legend class="hedsa">&nbsp;&nbsp;-- : Family detail : --&nbsp;&nbsp;&nbsp;&nbsp;</legend>
+
+                <table cellspacing="20px">
+
+                    <tr>
+                        <td class="given"> Father name </td>
+                        <td class="ans"> :-&nbsp; Manjunath H Y</td>
+                    </tr>
+                    <tr>
+                        <td class="given"> Mother name </td>
+                        <td class="ans"> :-&nbsp; Asha </td>
+                    </tr>
+
+                    <tr colspan="2">
+                        <td colspan="2" class="heds">Brothers :--</td>
+
+                    </tr>
+                    <tr>
+                        <td class="given"> Younger Brother </td>
+                        <td class="ans"> :-&nbsp; Yogesh H M </td>
+                    </tr>
+
+                </table>
+            </fieldset>
+            <table cellspace="20px">
+                <tr>
+                    <td colspan="2" class="heds"><br> Contact Detail –<br></td>
+                </tr>
+                <tr>
+                    <td class="given"><br> Address </td>
+                    <td class="ans"> :-&nbsp; 318/1 KRS Road Hootagalli Mysore </td>
+                </tr>
+                <tr>
+                    <td class="given"><br> Mobil No </td>
+                    <td class="ans"> :-&nbsp; 9141785977 </td>
+                </tr>
+            </table>
+
+
+        </div>
+    </div>
+
+</body>
+
+
+
+</html>
